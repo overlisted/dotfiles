@@ -1,0 +1,7 @@
+[user]
+  name = Ilya Maximov
+  email = mail@overlisted.net
+[pull]
+  rebase = false
+[branch "master"]
+  mergeoptions = --ff-only
