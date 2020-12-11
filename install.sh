@@ -1,6 +1,6 @@
 #/bin/sh
 
-DEST=HOME # can be whatever directory if you wanna debug
+DEST=$HOME # can be whatever directory if you wanna debug
 
 install_cp() {
   if [ -f $1 ]
