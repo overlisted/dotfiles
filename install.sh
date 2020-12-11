@@ -25,6 +25,7 @@ do
   if [ "$file" = ".gitmodules" ]; then continue; fi
   if [ "$file" = ".gitignore" ]; then continue; fi
   if [ "$file" = "install.sh" ]; then continue; fi
+  if [ "$file" = "README.md" ]; then continue; fi
 
   if [ -e "$DEST/$file" ]
   then
