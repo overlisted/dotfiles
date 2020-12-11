@@ -1,7 +1,21 @@
 [user]
   name = Ilya Maximov
   email = mail@overlisted.net
+  signingkey = 1ACCDCC0429C9737
 [pull]
   rebase = false
 [branch "master"]
   mergeoptions = --ff-only
+[branch "main"]
+  mergeoptions = --ff-only
+[alias]
+  uncommit = reset --soft HEAD^
+  co = checkout
+  c = commit -m
+  uc = uncommit
+  s = status
+  dl = clone
+  f = pull
+  p = push
+  t = tag -a
+  a = add
