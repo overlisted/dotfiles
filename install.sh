@@ -7,7 +7,7 @@ install_cp() {
   then
     cp $1 test
   fi
-  
+
   if [ -d $1 ]
   then
     rsync --recursive $1 $DEST/$1
