@@ -30,7 +30,7 @@ do
   if [ -e "$DEST/$file" ]
   then
     echo "$file exists..."
-    if [ -s "$DEST/$file" ] && [ ! -d "$DEST/$file" ]
+    if [ -s "$DEST/$file" ]
     then
       echo "Not installing it."
     else
