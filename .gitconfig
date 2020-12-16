@@ -21,3 +21,4 @@
   t = tag -a
   a = add
   rb = rebase -i
+  crb = rebase --continue
