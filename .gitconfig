@@ -12,6 +12,7 @@
   uncommit = reset --soft HEAD^
   co = checkout
   c = commit -m
+  ac = commit --amend
   uc = uncommit
   s = status
   dl = clone
@@ -19,3 +20,4 @@
   p = push
   t = tag -a
   a = add
+  rb = rebase -i
