@@ -21,7 +21,7 @@ COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="false"
 HIST_STAMPS="dd/mm/yyyy"
 #ZSH_CUSTOM=/path/to/new-custom-folder
-plugins=(git node npm)
+plugins=(git node npm yarn sudo rustup gradle dotenv fd cargo)
 source $ZSH/oh-my-zsh.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
