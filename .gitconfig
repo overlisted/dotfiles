@@ -22,5 +22,7 @@
   a = add
   rb = rebase -i
   crb = rebase --continue
+[core]
+	autocrlf = input
 [init]
 	defaultBranch = main
