@@ -6,6 +6,7 @@ fi
 
 export ZSH="/home/overlisted/.oh-my-zsh"
 
+export ZSH_CUSTOM="$HOME/.omz-custom"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 CASE_SENSITIVE="false"
