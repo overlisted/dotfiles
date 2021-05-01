@@ -26,3 +26,5 @@
 	autocrlf = input
 [init]
 	defaultBranch = main
+[commit]
+	gpgsign = true
